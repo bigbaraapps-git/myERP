@@ -1,0 +1,35 @@
+[00:00:01.225] Server  LOG     ✓ Ready in 1027ms
+[00:31:56.333] Server  LOG       Reload env: .env
+[00:33:21.248] Server  LOG     ✓ Compiled in 21ms
+[00:36:24.011] Server  LOG     ✓ Compiled in 14ms
+[00:37:08.869] Server  LOG     ✓ Compiled in 105ms
+[00:37:09.272] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- /Users/zruzic/Documents/myERP/node_modules/@prisma/client/default.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/chunks/[root-of-the-server]__bfaa6196._.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/chunks/[turbopack]_runtime.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/app/api/dashboard/route.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/require.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/load-components.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/utils.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/swc/options.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/swc/index.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/router-server.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/start-server.js
+[00:37:09.288] Server  ERROR   ⨯ Error: Failed to load external module @prisma/client-2c3a283f134fdcb6: Error: Cannot find module '.prisma/client/default'
+Require stack:
+- /Users/zruzic/Documents/myERP/node_modules/@prisma/client/default.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/chunks/[root-of-the-server]__bfaa6196._.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/chunks/[turbopack]_runtime.js
+- /Users/zruzic/Documents/myERP/.next/dev/server/app/api/dashboard/route.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/require.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/load-components.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/utils.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/swc/options.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/build/swc/index.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/router-server.js
+- /Users/zruzic/Documents/myERP/node_modules/next/dist/server/lib/start-server.js
+[00:37:09.725] Browser ERROR   unhandledRejection: SyntaxError: The string did not match the expected pattern.
+[00:37:09.726] Browser ERROR   unhandledRejection: SyntaxError: The string did not match the expected pattern.
