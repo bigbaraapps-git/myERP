@@ -8,8 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.4.2",
     "@prisma/client": "^7.4.2",
     "@tailwindcss/postcss": "^4.2.1",
+    "better-sqlite3": "^12.6.2",
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.3",
     "lucide-react": "^0.575.0",
@@ -24,6 +26,7 @@
   },
   "devDependencies": {
     "@types/node": "25.3.2",
+    "tsx": "^4.21.0",
     "typescript": "5.9.3"
   }
 }
